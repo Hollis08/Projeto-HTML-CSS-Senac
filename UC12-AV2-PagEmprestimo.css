@@ -1,0 +1,230 @@
+#descricao{
+    margin-left: 300px;
+    margin-right: 200px;
+    padding: 20px;
+    padding-inline: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-flex;
+    align-items: self-start;
+}
+.cabecalho{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 40px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.tituloDes{
+    text-shadow: black 1px 1px 1px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.desTipo{
+    margin-top: 23px;
+}
+#cabSimulacao{
+    color: white;
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 0px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #570b0a;
+}
+#simulacao{
+    flex: 1;
+    width: 800px;
+    margin-left: 250px;
+    margin-right: 50px;
+    padding: 60px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border : 2px solid gray;
+    border-radius: 20px;
+}
+#botaoSimular{
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#tipoSi{
+    width: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+#quantMes{
+    margin-top: 8px;
+    width: 70px;
+    margin-right: 350px;
+}
+#valorMes{
+    margin-block: 10px;
+    margin-top: 10px;
+    width: 70px;
+    margin-right: 350px;
+}
+#sejaNossoCliente{
+    flex: 1;
+    width: 150px;
+    margin-right: 130px;
+    margin-left: 90px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #570b0a;
+    color: white;
+    z-index: 1;
+}
+#botaoSeja{
+    width: 100px;
+    padding: 10px;
+    margin-top: 30px;
+}
+#desSeja{
+    color: black;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+#cabSeja{
+    margin-top: 10px;
+}
+#conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#perFrequentes{
+    width: 500px;
+    margin-left: 250px;
+    margin-right: 70px;
+    text-align: center ;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.modal-toggle {
+    display: none;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+.modal-toggle:checked + .modal {
+    display: block;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.open-modal {
+    cursor: pointer;
+    color: #570b0a;
+    text-decoration: underline;
+}
+
+
+
+
+
+body{
+    height: 100vh;
+}
+#navLateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100px;
+    height: 100vh;
+    background-color: #570b0a;
+    border-right: 2px solid #6e2322;
+}
+
+#navBaixo{
+    position: static;
+    bottom: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    width: 1320px;
+    height: 100px;
+    background-color: #570b0a;
+    border-top: 2px solid #6e2322;
+}
+
+#logoNav{
+    width: 100px;
+    height: 100px;
+}
+
+.linkA{
+    text-decoration-line: none;
+    height: 10px;
+    width: 75px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid gray;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    margin: 15px;
+    margin-left: 3px;
+    display: grid;
+    background-color: #C54542;
+    border-radius: 20px;
+}
+
+.linkB{
+    text-decoration-line: none;
+    color: #FFFFFF;
+    padding-top: 20px;
+    margin-left: 200px;
+}
+
+.icons{
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.iconsB{
+    margin-top: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+}

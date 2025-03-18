@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="UC12-AV2-PagCadastro.css">
+        <title>Cadastro E&A</title>
+    </head>
+    <body>
+        <div class="cabecalho"><h2>Seja nosso cliente!</h2></div>
+        <img src="serviços3.jpg" alt="imagem cadastro" id="imgCad">
+        <div id="formulario">
+            <form class="container" method="post">
+                <label for="Nome">Nome:</label>
+                <input id="Nome" class="cdInput" type="text" >
+                <label for="Sobrenome">Sobrenome:</label>
+                <input id="Sobrenome" class="cdInput" type="text" >
+                <br>
+                <label for="Celular">Celular:</label>
+                <input id="Celular" class="cdInput" type="tel" >
+                <label for="Email">Email:</label>
+                <input id="Email" class="cdInput" type="email" >
+                <br>
+                    <div id="Aposentado">
+                        <label for="">Você é aposentado?</label>
+                        <input type="radio" name="op-aposentado" id="rSim" value="S">
+                        <label for="S">Sim</label>
+                        <input type="radio" name="op-aposentado" id="N" value="N">
+                        <label for="N">Não</label>
+                    </div>
+                    <div id="serv-dej">
+                        <label for="">Serviço desejado :</label>
+                        <select name="servico-dej">
+                            <option value="Pessoal">Pessoal</option>
+                            <option value="Consignado">Consignado</option>
+                        </select>
+                    </div>
+                    <div id="botaoCad">
+                        <input type="button" name="Cad" id="btnCad" value="Cadastrar-se">
+                    </div>
+
+            </form>
+        </div>
+    </body>
+    <nav id="navLateral">
+        <img id="logoNav" src="Logo-removebg-preview.png">
+        <div >
+            <a class="linkA" href="UC12-AV2-PagPrincipal.html">Início</a>
+            <a class="linkA" href="UC12-AV2-PagEmprestimo.html">Emprestimo</a>
+            <a class="linkA" href="UC12-AV2-PagCadastro.html">Cadastre-se</a>
+            <a href=""><img class="icons" src="icon-conta.png"></a>
+        </div>
+    </nav>
+    <nav id="navBaixo">
+            <img class="iconsB" src="logo-insta.png">
+            <a class="linkB" href="">@Emp&A</a>
+            <img class="iconsB" src="logo-tele.png">
+            <a class="linkB" href="">21-94444-4444</a>
+            <img class="iconsB" src="icon-casa.png">
+            <a class="linkB" href="">Rua A, logradouro B, Rio de janeiro</a>
+    </nav>
+</html>

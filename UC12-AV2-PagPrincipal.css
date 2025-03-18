@@ -1,0 +1,129 @@
+body{
+    position: static;
+    height: 100%;
+    padding-left: 50px;
+    margin: 0;
+    background-color: #ffffff ;
+    }
+.logo{
+    margin-left: 45%;
+    width: 15%;
+    height: 15%;
+    }
+#txOfertas{
+    font-size: 27px;
+    font-style: italic;
+    color: #641413;
+    margin-left: 17%;
+    padding: auto;
+    text-decoration: underline;
+}
+.ofertas{
+    background-color: #C54542;
+    border-radius: 25px;
+    margin-left: 17%;
+    margin-right: 14%;
+    padding: 2%;
+    border : 3px, solid, gray;
+}
+
+.imagensO img {
+    vertical-align: middle;
+    width: 15%;
+    margin-inline: 70px;
+}
+
+.imgS{
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 135px;
+}
+
+.servicos{
+    width: 150px;
+    height: 65%;
+    padding-left: 5px;
+    margin-left: 220px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.servicos p{
+    border-bottom: 2px solid gray;
+    margin-right: 5px;
+    padding-bottom: 15px;
+}
+
+.servicos button{
+    margin: 5px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    padding-inline: 10%;
+}
+
+#navLateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100px;
+    height: 100vh;
+    background-color: #570b0a;
+    border-right: 2px solid #6e2322;
+}
+
+#navBaixo{
+    position: static;
+    bottom: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    width: 1278px;
+    height: 100px;
+    background-color: #570b0a;
+    border-top: 2px solid #6e2322;
+}
+
+#logoNav{
+    width: 100px;
+    height: 100px;
+}
+
+.linkA{
+    text-decoration-line: none;
+    height: 10px;
+    width: 75px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid gray;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    margin: 15px;
+    margin-left: 3px;
+    display: grid;
+    background-color: #C54542;
+    border-radius: 20px;
+}
+
+.linkB{
+    text-decoration-line: none;
+    color: #FFFFFF;
+    padding-top: 20px;
+    margin-left: 200px;
+}
+
+.icons{
+    margin-top: 200px;
+    padding-left: 28px;
+    width: 35px;
+    height: 35px;
+}
+
+.iconsB{
+    margin-top: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
